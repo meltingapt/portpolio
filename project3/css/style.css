@@ -1,0 +1,44 @@
+/* 공통 */
+
+*{margin: 0; padding: 0}
+.space{clear: both}
+ul, li{list-style: none;}
+.wrap{width: 1920px; margin: 0 auto}
+body{overflow-x: hidden}
+
+/* 헤더 */
+.header{width: 1920px; height: 60px; padding: 20px 0}
+.logo{width: 246px; height: 34px; float: left; padding:13px 0 0 30px}
+.menu{width: 350px; height: 20px; float: right; padding: 20px 0;}
+.menu li{width: 80px; float: left; text-align: center;}
+
+/* 메인이미지 */
+.mainimg{width: 1920px; height: 445px; background-image: url(../images/mainimg.jpg);}
+
+/* 콘텐츠 */
+.box1{width: 1920px; height: 719px;}
+.box2{width: 1920px; height: 532px; background-color: #0064ff;}
+.box2 div{width: 50%; margin: 0 auto; text-align: center; padding-top: 160px; color: #fff}
+.box2 img{padding-bottom: 40px}
+.box3{width: 1920px; height: 628px}
+.box3_left{width: 50%; height: 628px; background-color: #003380; float: left}
+.box3_left div{width: 50%; margin: 0 auto; text-align: center; color: #fff; padding-top: 180px;}
+.box3_left img{padding: 40px 0}
+.box3_right{width: 50%; height: 628px; background-color: #264a80; float: right}
+.box3_right div{width: 50%; margin: 0 auto; text-align: center; color: #fff; padding-top: 180px;}
+.box3_right img{padding: 40px 0}
+.box4{width: 1920px; height: 628px}
+.box4_left{width: 50%; height: 628px; background-color: #0052cc; float: left}
+.box4_left div{width: 50%; margin: 0 auto; text-align: center; color: #fff; padding-top: 180px;}
+.box4_left img{padding: 40px 0}
+.box4_right{width: 50%; height: 628px; background-color: #4d94ff; float: right}
+.box4_right div{width: 50%; margin: 0 auto; text-align: center; color: #fff; padding-top: 180px;}
+.box4_right img{padding: 40px 0}
+
+
+/* 푸터 */
+.footer{width: 1920px; height: 173px; background-color: #424242;}
+.copyright{text-align: center; padding: 40px 0 20px 0; color: #a3a3a3}
+.sns{width: 180px; height: 40px; margin: 0 auto}
+.sns li{width: 40px; height: 40px; float: left; background-color: #a6a6a6; margin: 0 10px; border-radius: 5px; text-align: center; line-height: 40px}
+

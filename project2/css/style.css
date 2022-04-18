@@ -1,0 +1,88 @@
+@font-face {font-family: 'NotoSansKR-Regular';
+    src: url("../fonts/NotoSansKR-Regular.otf") format("opentype");}
+/* 공통 */
+*{margin: 0; padding: 0}
+ul, li{list-style: none;}
+.space{clear: both}
+.inner{width: 1400px; margin: 0 auto}
+body{overflow-x: hidden; font-family: NotoSansKR-Regular;}
+
+
+/* 헤더 */
+#header{width: 100%; height: 90px; line-height: 90px;}
+#header>.inner{position: relative;}
+.logo{width: 195px; height: 90px; float: left;}
+.logo img{vertical-align: middle;}
+.menu{width: 660px; position: absolute; left: 0; right: 0; margin: 0 auto}
+.menu li{float: left; width: 110px; text-align: center; font-weight: bold;}
+.top_banner{float: right}
+.top_banner li{float: left; font-weight: bold; font-size: 20px}
+.one{width: 50px; height: 50px; border-radius: 50%; background-color: #fdae45; margin-top: 20px; margin-left: 10px; line-height: 50px; text-align: center;}
+
+/* 메인이미지 */
+#mainimg{width: 100%; height: 965px; position: relative;}
+.main_bg{width: 100%; height: 670px; background-color: #ffefc9; position: absolute; top: 150px}
+.main_img{background-image: url(../img/main_img.png); width: 1424px; height: 963px; background-size: cover; position: absolute; left: 0; right: 0; margin: 0 auto; top: 15px;}
+
+/* 콘텐츠 */
+#contents{width: 100%; height: 880px;}
+.box1{width: 1400px; height: 388px; padding: 87px 0 164px 0; margin: 0 auto}
+.list{width: 25%; float: left;}
+.list>p{padding: 20px 0 40px 0; color: #2a2c31}
+.list:nth-child(2)>div, .list:nth-child(3)>div, .list:nth-child(4)>div{width: 323px; height: 257px; border: 1px solid #000}
+.list_item{width: 50%; text-align: center; margin: 0 auto; padding-top: 90px}
+.box2{width: 1400px; height: 240px; margin: 0 auto;}
+.box2_left{float: left; padding: 60px 0 36px 0; position: relative; width: 500px}
+.box2_left ul li:nth-child(1){font-weight: bold; font-size: 34px;}
+.box2_left ul li:nth-child(2){font-size: 40px; font-weight: 100;}
+.box2_left p{position: absolute; left: 280px; bottom: 38px}
+.box2_right{width: 335px; height: 220px; float: right; padding-top: 20px}
+
+/* 푸터 */
+#footer{width: 100%; height: 116px; background-color: #ebebeb;}
+.footer_menu{padding-top: 36px;}
+.footer_menu li{font-weight: bold; float: left; padding-right: 24px; font-size: 18px;}
+#footer p{font-size: 14px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

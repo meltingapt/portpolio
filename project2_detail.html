@@ -9,8 +9,66 @@
 </head>
 
 <style type="text/css">
-.wrap{width: 1290px; margin: 0 auto}
-.project2_detail{margin: 100px 0 0 0}
+    ul,
+    li {
+        list-style: none
+    }
+
+    .wrap {
+        width: 1290px;
+        margin: 0 auto
+    }
+
+    .project1_detail {
+        margin: 100px 0 0 0
+    }
+
+
+    .contents_button {
+        width: 500px;
+        margin: 0 auto;
+        height: 150px
+    }
+
+    .contents_button li {
+        height: 3.75em;
+        line-height: 3.75em;
+        float: left;
+        font-weight: 400;
+    }
+
+    .button {
+        background-color: transparent;
+        box-shadow: inset 0 0 0 1px rgb(0 0 0 / 20%);
+        color: #000000 !important;
+        transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+        border: 0;
+        cursor: pointer;
+        display: inline-block;
+        letter-spacing: 0.125em;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        white-space: nowrap;
+        max-width: 20rem;
+        border-radius: 3.75em;
+        padding: 0 2.5em;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        font: inherit;
+        vertical-align: middle;
+        box-sizing: inherit;
+        float: left;
+        margin: 0 10px;
+
+
+    }
+
+    .button:hover {
+        box-shadow: inset 0 0 0 1px #9966cc;
+        color: #9966cc !important;
+    }
+
 </style>
 
 <body>
@@ -19,6 +77,12 @@
             <img src="images/project2_detail.jpg">
         </div>
     </div>
+    <ul class="contents_button">
+        <li><a href="index.html" class="button">HOME</a></li>
+        <li><a href="project2/index.html" target="_blank" class="button">WEB PAGE</a></li>
+        <!-- 초기화 -->
+    </ul>
+
 
 </body>
 
